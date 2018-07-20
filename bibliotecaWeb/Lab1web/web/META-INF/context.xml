@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/Lab1web">
+<Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="8" maxIdle="4" name="jdbc/BibliotecaDB" password="root" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/Biblioteca" username="root"/>
+</Context>

@@ -1,0 +1,10 @@
+RewriteEngine off
+
+#RewriteBase /
+
+# Previene la navegación en los directorios
+#Options -Indexes
+
+# Muestra el Favicon en internet explorer
+RewriteRule ^favicon.ico images/favicon.ico
+

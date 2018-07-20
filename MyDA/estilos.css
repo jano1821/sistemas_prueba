@@ -1,0 +1,58 @@
+body  {
+    font: 100% Verdana, Arial, Helvetica, sans-serif;
+    background: #999999;
+    margin: 0; /* es recomendable ajustar a cero el margen y el relleno del elemento body para lograr la compatibilidad con la configuración predeterminada de los diversos navegadores */
+    padding: 0;
+    text-align: center; /* esto centra el contenedor en los navegadores IE 5*. El texto se ajusta posteriormente con el valor predeterminado de alineación a la izquierda en el selector #container */
+    color: #000000;
+}
+#marco_contenedor {
+    width: 95%;
+    background: #FFFFFF;
+    margin: 0 auto; /* los márgenes automáticos (conjuntamente con un ancho) centran la página */
+    border: 1px solid #000000;
+    text-align: left; /* esto anula text-align: center en el elemento body. */
+}
+#marco_menu {
+    float: left; /* dado que este elemento es flotante, debe asignarse un ancho */
+    width: 200px; /* el ancho real de este div, en navegadores que cumplen los estándares, o el modo de estándares de Internet Explorer, incluirá el relleno y el borde además del ancho */
+    background: #EBEBEB; /* el color de fondo se mostrará a lo largo de todo el contenido de la columna, pero no más allá */
+    padding: 15px 10px 15px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#marco_contenido {
+    margin: 0 0 0 250px; /* el margen izquierdo de este elemento div crea la columna situada a lo largo del lado izquierdo de la página (con independencia de la cantidad de contenido que tenga el div sidebar1, se mantendrá el espacio de la columna). Puede quitar este margen si desea que el texto del div #mainContent llene el espacio de #sidebar1 cuando termine el contenido de #sidebar1. */
+    padding: 0 20px 20px; /* recuerde que el relleno es el espacio situado dentro del cuadro div y que el margen es el espacio situado fuera del cuadro div */
+}
+
+.Tabla {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #333333;
+}
+
+a:link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-decoration: none;
+}
+a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-decoration: none;
+}
+a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #000000;
+    text-decoration: underline;
+}
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #FF8E0A;
+    text-decoration: underline;
+}

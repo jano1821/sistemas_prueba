@@ -1,0 +1,61 @@
+<?php include($_SERVER["DOCUMENT_ROOT"] . "/MyDA/clases/clases.php"); ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>MyDataAccess - Instalación</title>
+        <style type="text/css">
+<!--
+.Estilo1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.Estilo2 {font-family: Arial, Helvetica, sans-serif}
+.Estilo3 {color: #FF0000}
+.Estilo4 {color: #0000FF}
+.Estilo5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+-->
+        </style>
+</head>
+    <body>
+    <div align="center">
+      <p><img src="/MyDA/img/framework.jpg" width="194" height="194"></p>
+      <p class="Estilo5"><u>Proceso de instalación</u></p>
+      <blockquote>
+        <p align="left">&nbsp;</p>
+        <p align="left"><span class="Estilo2">Debe realizar correctamente el proceso de instalación de MyDataAccess. Para instalar MyDataAccess en su servidor siga estos tres sencillos pasos:</span></p>
+        <p align="left" class="Estilo1">1 - Modificación del fichero <span class="Estilo4">config.ini</span>:</p>
+        <blockquote>
+          <p align="left" class="Estilo2">El fichero <em>config.ini </em>se encuentra en el directorio principal de la aplicación &quot;MyDA&quot;. Ábralo con cualquier editor de texto, por ejemplo el Bloc de Notas de Windows, y dentro de la sección &quot;[conexion]&quot; debe configurar los siguientes parámetros marcados en rojo:</p>
+          <blockquote>
+            <p align="left" class="Estilo2">[conexion]</p>
+            <p align="left" class="Estilo2">servidor = &quot;<span class="Estilo3">nombre_servidor</span>&quot; (Nombre de su servidor MySQL)</p>
+            <p align="left" class="Estilo2"> base_datos = &quot;<span class="Estilo3">nombre_base_datos</span>&quot;   (Nombre de su base de datos en su servidor)<br />
+            </p>
+            <p align="left" class="Estilo2">usuario = &quot;<span class="Estilo3">usuario</span>&quot;      (Usuario de MySQL con acceso a la base de datos)</p>
+            <p align="left" class="Estilo2"> password = &quot;<span class="Estilo3">contraseña</span>&quot;   (Contraseña del usuario)</p>
+          </blockquote>
+          <p align="left" class="Estilo2">Una vez modificado, debe ser colocado de nuevo en la carpeta MyDA, sobreescribiendo al fichero <em>config.ini</em> inicial.</p>
+        </blockquote>
+        <p align="left" class="Estilo1">2 - Copiar la carpeta MyDA a su servidor:</p>
+        <blockquote>
+          <p align="left" class="Estilo2">Una vez modificado el fichero config.ini, copie todo el contenido de la carpeta MyDA al directorio raiz de su servidor web.</p>
+        </blockquote>
+        <p align="left" class="Estilo1">3 - Ejecutar el proceso de creación de tablas:</p>
+        <blockquote>
+          <p align="left" class="Estilo2">Ejecute el procedimiento de creación de las tablas principales pinchando <a href="../crear_tablas.php">aquí</a> o escribiendo la siguiente dirección en su navegador web:</p>
+          <blockquote>
+            <p align="left" class="Estilo2">	http://<span class="Estilo3">sudominio</span>/MyDA/crear_tablas.php</p>
+          </blockquote>
+          <p align="center">-----------</p>
+          <p align="center" class="Estilo2">>>> Para volver a entrar a MyDataAccess pinche <a href="../index.php">aquí</a> <<<</p>
+        </blockquote>
+        <p align="left">&nbsp;</p>
+      </blockquote>
+    </div>
+</body>
+</html>
